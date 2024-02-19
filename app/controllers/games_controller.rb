@@ -28,6 +28,5 @@ class GamesController < ApplicationController
     else
       @result = "Sorry, but #{input} does not seem to be a valid english word"
     end
-
   end
 end
